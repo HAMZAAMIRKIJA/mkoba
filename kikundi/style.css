@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+.size{
+    width: 100%;
+    background-color: rgb(18, 18, 58);
+    height: 100vh;
+    margin-top: -3px;
+}
+.size ul {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+.size ul li{
+    padding: 15px;
+    list-style: none;
+}
+.size ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar-menu{
+    width: 15%;
+    outline: auto;
+    height: 100vh;
+    /* margin-top: -3%; */
+    
+}
+.main-center-menu{
+    width: 85%;
+    background-color: whitesmoke;
+
+}
+
+.shodow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sho{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.gap{
+    gap: 2px;
+    justify-content: space-around;
+}
